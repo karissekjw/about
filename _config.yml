@@ -18,7 +18,7 @@ sass:
 markdown:      kramdown
 kmarkdown:
   input:       GFM
-gems: ["jemoji"]
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -26,5 +26,6 @@ plugins:
   - jekyll-paginate
   - jekyll-spaceship
   - jekyll-coffeescript
+  - jemoji
 
 remote_theme:  "jeffreytse/jekyll-theme-yat"
