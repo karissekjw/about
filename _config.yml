@@ -1,2 +1,30 @@
-# theme: jekyll-theme-slate
-remote_theme: "jeffreytse/jekyll-theme-yat"
+# theme:       jekyll-theme-slate
+title:         karisse's blog
+email:         karissekhoo@hotmail.com
+author:        Karisse Khoo
+copyright:     Copyright © 2021
+description:   >- # this means to ignore newlines until "baseurl:"
+  Karisse's blog
+baseurl:       "" # the subpath of your site, e.g. /blog
+url:           "" # the base hostname & protocol for your site, e.g. http://example.com
+favicon:       "" # the favicon for your site
+
+# Yat date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+yat:
+  date_format: "%b %d, %Y"
+sass: 
+  style: compressed
+markdown:      kramdown
+kmarkdown:
+  input:       GFM
+gems: ["jemoji"]
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
+  - jekyll-coffeescript
+
+remote_theme:  "jeffreytse/jekyll-theme-yat"

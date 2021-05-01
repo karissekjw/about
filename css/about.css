@@ -1,0 +1,21 @@
+.subheader {
+    text-align: center;
+}
+
+.post .post-content img {
+    display: inline-block !important;
+}
+
+.post .post-content h3 {
+    margin: 20px 0 19px !important;
+}
+
+.subheader p {
+    margin: 15px 0 !important;
+    font-weight: bold !important;
+}
+
+.subheader .profile-img {
+    width: 150px;
+    border-radius: 150px;
+}
