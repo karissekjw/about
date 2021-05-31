@@ -3,7 +3,7 @@ layout: post
 title: Aggregating results asynchronously with Redis cache, Python
 subheading: Building a high-performing hotel booking platform while integrating with multiple suppliers.
 author: Karisse Khoo
-categories: Redis
+categories: Redis AWS 
 banner: https://bit.ly/32PAjtM
 tags: redis cache async python aws dynamodb
 sidebar: []
